@@ -1,0 +1,40 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.head {
+    font-family: Georgia, serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(221,221,221);;
+}
+
+th, td{
+    padding-left: 5px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+tr:nth-last-child(even){
+    background-color: rgb(221, 221, 221);
+}
+
+blockquote{
+    border-left: 5px solid  rgb(221,221,221);
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+}
+
+blockquote p {
+    padding-left: 30px;
+}
