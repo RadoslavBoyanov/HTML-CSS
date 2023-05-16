@@ -1,0 +1,119 @@
+1.	Welcome to HTML
+Create a Web Page like the following:
+ 
+Create file named welcome.html. Use the texts from the file site-texts.txt.
+Requirements
+•	Title: Welcome
+•	<strong> tag for bold text
+•	<p> tag for paragraph
+
+2.	Fruits
+Create a Web Page like the following:
+ 
+Create a file fruits.html.
+Requirements
+•	Titile: Fruits
+•	<h1> tag for heading
+•	<img> tag for images
+
+3.	Wiki Page
+Create a Web Page like the following:
+Create file: wiki-page.html. Use the texts from the file site-texts.txt.
+Requirements
+•	Title: The Brown Bear
+o	<h1> for heading
+•	Hyperlink: https://en.wikipedia.org/wiki/Brown_bear
+•	Text: use paragraph
+•	List: use ordered list and unordered list
+•	Image: bear.jpg
+
+
+4.	To Do List
+Create a Web Page like the following:
+Create two files: to-do-list.html and to-do-list.css. Use the texts from the file site-texts.txt. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Requirements
+•	<main> with class="my-list" as container
+o	Background Color: #f7f381;
+o	Padding: 8px 24px;
+o	Width: 500px;
+o	Text size: 30px;
+o	Border: 1px solid #f7f381;
+o	box-shadow: 0 0 10px 2px #333333;
+•	<ol>
+o	Margin: 12px;
+•	<p>
+o	Center the text
+
+5.	HTML Lists
+Create a Web Page like the following:
+Create file: html-lists.html. Use the texts from the file site-texts.txt. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Hints
+Use: <ol>, <ul> and <li>. You need to use nested lists.
+
+
+6.	Definition Lists
+Create a Web Page like the following:
+Create a file named definition-lists.html. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Requirements
+•	<h2> tag for heading
+•	<dl> + <dt> + <dd> tags for definition list
+
+7.	Reversed List
+Create a Web Page like the following:
+Create two files: reversed-list.html and reversed-list.css. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+
+8.	The Modern JavaScript
+Create a Web Page like the following using the texts from site-texts.txt.
+ 
+Create two files: modern-javascript.html and modern-javascript.css. Set the html title to be the same as the task name.
+Requirements
+•	<main> with id=wrapper as a container
+o	Background color: #5bc0de;
+
+9.	Book Story
+Create a Web Page like the following using the texts from site-texts.txt. Set the html title to be the same as the task name.
+Create two files: book-story.html and book-story.css. Set the html title to be the same as the task name. Set the html title to be the same as the task name.
+Requirements
+•	<main> for the main container
+o	Width container: 400px;
+o	Background color: #dddddd;
+o	Border: 1px solid #000000;
+o	Margin Left: 20px;
+o	Padding: 10px;
+•	<p> tag for paragraph + font-size: 18px;
+•	<em> tag for italic text
+
+10.	World Cup News
+Create a Web Page like the following.
+ 
+Create two files: world-cup-news.html and world-cup-news.css. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Requirements
+•	<main> with id= "wrapper" as a container
+o	Width container: 700px;
+o	Height container: 730px;
+o	Border: 1px solid #000000;
+o	Center the container
+o	Padding: 10px 20px;
+o	Background Color: #a6e1ec;
+•	<h1> and <h2> tags for headings
+•	<p> tag for paragraph
+•	<strong> tag for bold text
+•	<em> tag for italic text
+•	<img> tag for images 
+o	Width: 200px;
+o	Margin Right: 10px;
+o	Vertical Align: middle;
+•	<span class= "text"> for the text next to images
+o	Text color: #3f51b5;
+•	<li> tag
+o	Width: 595px;
+o	Padding: 10px;
+o	Margin Bottom: 5px;
+o	Font Size: 14px;
+o	Border: 1px solid #000000;
+
+
+
+
+
+
