@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+    margin: 30px 30px;
+    padding: 30px 30px;
+}
+
+.gallery{
+    padding: 10px 0px;
+    margin: 0px 140px;
+}
+
+body ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+body ul li{
+    display: flex;
+    border: solid 8px black;
+}
+
+li:nth-child(1), li:nth-child(3), li:nth-child(6), li:nth-child(7), 
+li:nth-child(8){
+    padding: 20px 10px;
+}
+
+li:nth-child(2), li:nth-child(5), li:nth-child(9){
+   padding: 120px 10px;
+}
+
+li:nth-child(4){
+    padding: 60px 10px;
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 30px;
+}
+
+header{
+    border-bottom: 2px rgb(0,0,0) solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+header nav{
+    display: flex;
+    flex-basis: 87%;
+}
+
+header nav ul{
+    display: flex;
+    flex-basis: 80%;
+    justify-content: flex-end;
+    align-content: end;
+}
+
+header nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding: 10px;
+
+}
