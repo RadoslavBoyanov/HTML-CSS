@@ -1,0 +1,66 @@
+div.page{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 50px;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    border-bottom: 3px solid black;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+}
+
+main{
+    display: flex;
+    width: 70%;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 2px;
+}
+
+
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    font-family: Georgia, serif;
+    border-left: 4px solid lightgray;
+    padding: 10px;
+}
+
+.quote span{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: end;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 25%;
+}
+
+.aside a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
