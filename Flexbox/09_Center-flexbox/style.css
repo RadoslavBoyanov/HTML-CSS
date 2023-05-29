@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card{
+    height: 140px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+div.card h1{
+    display: flex;
+    flex-basis: 100%;
+    font-size: 22px;
+    margin: 0px;
+}
+
+div.card p{
+    margin: 0px;
+    margin-bottom: 10px;
+}
