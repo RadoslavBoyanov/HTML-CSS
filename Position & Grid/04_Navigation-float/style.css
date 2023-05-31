@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 40px;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+.page header{
+    position: relative;
+    border-bottom: 3px solid black;
+}
+
+.page header h1{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.page header nav ul{
+    position: absolute;
+    display: inline-block;
+    list-style: none;
+    right: 10px;
+    top: 0px;
+}
+
+.page header nav ul li{
+    display: inline-block;
+}
+
+.page header nav ul li a{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+    padding: 10px;
+}
+
+main{
+    width: 70%;
+    display: inline-block;
+    position: relative;
+}
+
+.page main .article {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+body > div > main > article > section:nth-child(1){
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+body > div > main > article > section:nth-child(1) > h1{
+    font-size: 22px;
+}
+
+body > div > main > article > section:nth-child(1) > img{
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    height: 130px;
+    border-radius: 1px;
+}
+
+body > div > main > article > section.secondSection{
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+body > div > main > article > section.secondSection > h2{
+    font-size: 22px;
+}
+
+body > div > main > article > section.secondSection > blockquote{
+    float: right;
+    border-left: 3px solid darkgrey;
+    padding-left: 15px ;
+    width: 50%;
+    position: relative;
+    font-style: italic;
+    font-family: Georgia, serif;
+    height: 180px;
+}
+
+blockquote span{
+    position: absolute;
+    right: 5px;
+    bottom: 20px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+body > div > main > article > section.thirdSection{
+    display: inline-block;
+    position: relative;
+}
+
+body > div > main > article > section.thirdSection > h2{
+    font-size: 22px;
+}
+
+body > div > main > article > section.thirdSection > img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    height: 130px;
+    border-radius: 1px;
+}
+
+aside{
+    position: absolute;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.aside ul li{
+    padding: 3px;
+}
+
+.aside ul li a{
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
