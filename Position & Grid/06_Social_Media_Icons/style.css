@@ -1,0 +1,44 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+ul{
+    display: inline-block;
+    grid-template-columns: 5(30px);
+    position: relative;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(246, 246, 246);
+    margin: 20px;
+    padding: 20px;
+}
+
+body > ul > li:nth-child(1) > a:hover{
+    color: rgb(31, 143, 181);
+}
+
+body > ul > li:nth-child(2) > a:hover{
+    color: rgb(23, 242, 242);
+}
+
+body > ul > li:nth-child(3) > a:hover{
+    color: rgb(212, 79, 22);
+}
+
+body > ul > li:nth-child(4) > a:hover{
+    color: rgb(114, 87, 213);
+}
+
+body > ul > li:nth-child(5) > a:hover{
+    color: rgb(2, 102, 252);
+}
+
+body > ul> li> a{
+    font-size: 20px;
+    color: black;
+}
