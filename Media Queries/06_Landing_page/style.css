@@ -1,0 +1,249 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 5px 60px;
+    padding: 5px 10px;
+    background-color: #fefefe;
+    background-image: url("paper.gif");
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .headtitle{
+    display: flex;
+    flex-direction: column;
+    color: purple;
+    line-height: 1.3rem;
+    margin: 0px;
+}
+
+header .headtitle span{
+    font-size: 12px;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* main */
+
+main{
+    padding: 60px;
+    margin: 10px 20px;
+}
+
+/* need a website */
+
+section.website article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.website article h2{
+    width: 55%;
+    margin: 0px;
+}
+
+section.website article p{
+    width: 75%;
+    height: 20%;
+}
+
+section.website article .planet{
+    font-size: 110px;
+    margin: 10px 30px;
+}
+
+section.website article  button{
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+section.website article  button:hover{
+    cursor: pointer;
+}
+
+section.website article button p{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Our team */
+
+section.team h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    grid-area: head;
+    border-bottom: 3px solid black;
+}
+
+section.team > article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "head head head"
+    "emloyee emloyee emloyee"
+    "emloyee emloyee emloyee";
+}
+
+section.team  article  img{
+    width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+section.team > article .employee{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 34px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section.team  article  p.name{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+section.team article p.title{
+    margin-top: 3px;
+}
+
+section.team  article  p.content{
+   font-size: 0.9em;
+}
+
+/* Sign-up to our newsletter */
+section.newsletter{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+section.newsletter  h2{
+    color: #fefefe;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+}
+
+section.newsletter  form  input[type=text]{
+    padding: 8px 10px;
+    margin: 0px 10px;
+}
+
+section.newsletter  form  button{
+    margin: 0px;
+    font-size: 10px;
+    background-color: #fefefe;
+}
+
+section.newsletter form{
+    margin-bottom: 10px;
+}
+
+/* testimonials */
+
+.h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+
+section.testimonials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+section.testimonials div{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section.testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+body > main > section.testimonials  p.name{
+    margin-bottom: 0px;
+    padding: 4px;
+    font-size: bold;
+}
+
+section.testimonials  p.title{
+    margin-top: 3px;
+}
+
+/* footer */
+footer{
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #contacts ul{
+    list-style: none;
+  }
+  #contacts ul li{
+    margin-top: 4px;
+  }
+  #contacts ul li i{
+    margin-right: 5px;
+  }
+  footer section .title{
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  footer section nav ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  footer section nav ul{
+    list-style: none;
+  }
+  footer section nav ul li{
+    margin-bottom: 5px;
+  }
+  footer section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 33.33%;
+    padding: 2px;
+  }
+
