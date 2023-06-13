@@ -1,0 +1,303 @@
+/*
+небесно синьо- #85dcff
+
+ */
+
+html{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: white;
+    margin: 20px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 32px 18px 150px;
+    z-index: 1;
+}
+
+header h2{
+    font-size: 26px;
+}
+
+header .navigation {
+    display: flex;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0px 12px;
+}
+
+.paw{
+    display: flex;
+    justify-content: center;
+    background-color: #85dcff;
+    height: 55vh;
+    padding: 0px 80px 0px 110px;
+}
+
+.paw .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 100px;
+}
+
+.paw .content h2{
+    font-size: 32px;
+}
+
+.paw .content p{
+    width: 70%;
+    padding: 20px 0px 20px 0px;
+    font-size: 14px;
+}
+
+.paw .content .buttons{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+   
+}
+
+.paw .content .buttons button{
+    padding: 12px 120px;
+    border-radius: 8px;   
+}
+
+.paw .content .buttons .donate{
+    background-color: white;
+    cursor: pointer;
+}
+
+.paw .content .buttons .news{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.paw .img img{
+    height: 515px;
+    width: 650px;
+}
+
+section.animal{
+    padding: 0px 80px 0px 80px;
+}
+
+section.animal h2{
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px 24px 0px;
+}
+
+section.animal .main-text{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+section.animal .points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 32px;
+    gap: 36px;
+}
+
+section.animal .points i{
+    font-size: 100px;
+    color: #85dcff;
+}
+
+section.animal div div.home, section.animal div div.hel, section.animal div div.vol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+section.work{
+    background-color: #85dcff;
+    padding: 26px 36px;
+    margin: auto auto;
+    position: relative;
+    height: 50vh;
+}
+
+section.work h2{
+    text-align: center;
+}
+
+section.work  section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 32px 120px;
+}
+
+section.work section div{
+
+}
+
+section.work  section div:nth-child(1) p, section.work  section div:nth-child(2) p{
+    padding: 22px 22px;
+    font-weight: bold;
+    width: 85%;
+}
+
+section.work  section div:nth-child(1) i, section.work  section div:nth-child(2) i{
+    padding-right: 5px;
+}
+
+section.work button{
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+    width: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+section.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 48px;
+    gap: 26px;
+}
+
+.main .heading{
+    font-weight: 900;
+}
+
+.main .span{
+    font-weight: 700;
+}
+
+.main .images{
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+   padding-top: 12px ; 
+   padding-bottom: 42px;
+   padding-right: 24px;
+}
+
+.main .images img{
+    width: 25%;
+}
+
+section.main  h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 24px 32px;
+}
+
+.main .info article{
+    border: 1px solid #85dcff;
+    border-radius: 8px;
+    width: 95%;
+}
+
+.main .info article h4{
+    background-color: #85dcff;
+    padding: 12px 24px;
+}
+
+main .info article p{
+    padding: 12px 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.025rem;
+}
+
+.main .alert{
+    display: flex;
+    gap: 38px;
+    margin: 20px;
+}
+
+.main .alert img{
+    width: 750px;
+}
+
+.main .alert div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 36px;
+    gap: 10px;
+    width: 40%;
+}
+
+.main .alert div p{
+    padding: 18px 0px;
+}
+
+.main .alert div form input{
+   padding: 8px 22px;
+}
+
+.main .alert div form{
+    padding-bottom: 12px;
+    width: 60%;
+}
+
+.main .alert div button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 22px;
+    width: 25%;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 18px;
+}
+
+footer .icons i{
+    font-size: 24px;
+    padding: 0px 4px;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+
