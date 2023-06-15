@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+
+/* 
+54546d# - background Такси, footor, nav
+#626278 - калкулатор и p footer
+#4e3ca9 - prof modul --> #8a7be0
+#4d6e8c - fund program --> #6096c9
+0aa043 - design basic --> #41ce77
+9a5dc6 - кандидатствай
+#e6e6e6 
+#f8f8f8 
+*/
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px 15px 80px;
+
+}
+
+header img{
+    width: 130px;
+}
+
+header nav ul li{
+    display: inline;
+    padding: 0px 20px 0px 0px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #54546d;
+    font-size: 16px;
+}
+
+body div.img-calc{
+    background-color: #54546d;
+    height: 30vh;
+    position: relative;
+}
+
+body div img{
+    color: #626278;
+    position: absolute;
+    top: 35px;
+    left: -50px;
+}
+
+main .taxes{
+    display: flex;
+    flex-direction: row;
+    margin-right: 120px;
+    margin-left: 120px;
+    gap:80px;
+}
+
+body main h2{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -250px;
+}
+
+.taxes-card{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto -220px auto;
+    position: relative;
+    gap: 12px;
+    top: -280px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+    flex-basis: 30%;
+    height: 40vh;
+    position: relative;
+    top: -220px;
+    z-index: 1;
+    background-color: white; 
+    content: inherit;
+}
+
+.taxes-card h3{
+    color: #54546d;
+    font-size: 28px;
+    padding-top: 26px;
+}
+
+.taxes-card p{
+    color: #626278 ;
+    padding: 12px 24px;
+}
+
+section.taxes article.taxes-card.basics button{
+    background-color: #9a5dc6;
+    color: white;
+    font-size: 18px;
+    border-radius: 24px;
+    padding: 8px 46px;
+    cursor: pointer;
+}
+
+section.taxes article.taxes-card.basics footer{
+    background: linear-gradient(0.25turn, #0aa043, #41ce77);
+    text-decoration-color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+section.taxes article.taxes-card footer .value{
+    color: white;
+    font-size: 24px;
+}
+section.taxes article.taxes-card footer .period{
+    color: white;
+}
+
+article.taxes-card.fundamentals > footer{
+    display: flex;
+    background: linear-gradient(0.25turn, #4d6e8c, #6096c9);
+    width: 100%;
+    gap: 36px;
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+body > main > section.taxes > article.taxes-card.fundamentals > footer > div:nth-child(1){
+    border-right: 2px solid white;
+    padding-left: 10px;
+    height: 100%;
+}
+
+article.taxes-card.professional  footer{
+    display: flex;
+    background: linear-gradient(0.25turn, #4e3ca9, #8a7be0);
+    width: 100%;
+    gap: 36px;
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+body > main > section.taxes > article.taxes-card.professional > footer > div:nth-child(1){
+    border-right: 2px solid white;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.study-form{
+    padding: 40px 120px;
+    color: #626278 ;
+    width: 80%;
+}
+
+.study-form h3{
+    padding: 21px 42px;
+    font-size: 24px;
+}
+
+.study-form p{
+    padding: 4px 42px;
+}
+
+.study-form ul li{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+.study-form ul li span{
+    display: flex;
+}
+
+body > main > section.study-form > ul > li:nth-child(1) > span > img:nth-child(1),
+body > main > section.study-form > ul > li:nth-child(2) > span > img:nth-child(1),
+body > main > section.study-form > ul > li:nth-child(3) > span > img:nth-child(1),
+body > main > section.study-form > ul > li:nth-child(4) > span > img:nth-child(1),
+body > main > section.study-form > ul > li:nth-child(5) > span > img:nth-child(1),
+body > main > section.study-form > ul > li:nth-child(6) > span > img:nth-child(1){
+    padding-right:  120px;
+}
+
+body > main > section.study-form > ul > li:nth-child(1),
+body > main > section.study-form > ul > li:nth-child(3),
+body > main > section.study-form > ul > li:nth-child(5){
+    background-color: #e6e6e6 ;
+}
+
+body > main > section.study-form > ul > li:nth-child(2),
+body > main > section.study-form > ul > li:nth-child(4),
+body > main > section.study-form > ul > li:nth-child(6){
+    background-color: #f8f8f8 ;
+}
+
+
+
+.finance{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 120px;
+    position: relative;
+    color: #626278 ;
+    padding-bottom: 30px;
+}
+
+.finance .heading{
+    position: relative;
+    font-size: 28px;
+    padding-bottom: 12px;
+}
+
+.finance p:nth-child(1){
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.finance p:nth-child(2){
+    width: 70%;
+}
+
+body > main > section.finance > div.postbank-logo > img{
+  position: relative;
+  padding: 20px;
+}
+
+.footer{
+    background-color: #54546d;
+    text-align: center;
+    color: #626278 ;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
