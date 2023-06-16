@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    padding: 32px 64px;
+}
+
+section.main{
+    background-color: #f6f7f8;
+    width: 80%;
+    box-shadow: 0px 14px 16px 2px #999999;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+
+div.img{
+    width: 50%;
+}
+
+div.img img{
+    image-rendering: optimizeQuality;
+    border-radius: 1%;
+}
+
+.main .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.main .content h1{
+    font-size: 32px;
+}
+
+div.button-units{
+    display: flex;
+    width: 70%;
+    gap: 100px;
+    padding-left: 4px;
+    padding-top: 46px;
+}
+
+div.button-units button{
+    border-radius: 8px;
+    padding: 6px 12px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+div.button-units button:nth-child(1){
+    background-color: #86d862;
+    width: 190px;
+    
+}
+
+.main .content div.button-units button:nth-child(2){
+    width: 190px;
+}
+
+
+section section h3:nth-child(3){
+    padding-top: 32px;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 28px;
+    width: 70%;
+    border-radius: 4px;
+}
+
+#Gender{
+    width: 200px;
+}
+
+section section h3:nth-child(5){
+    padding-top: 32px;
+}
+
+section section div.weight{
+    width: 80%;
+    padding-top: 22px;
+}
+
+section section div.weight input{
+    width: 100%;
+}
+
+section section h3:nth-child(7){
+    padding-top: 32px;
+}
+
+section > section div.height{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+section > section div.height input{
+    width: 48%;
+}
+
+section > section  div.button-calc {
+    padding-top: 70px;
+    width: 100%;
+}
+
+section > section  div.button-calc button{
+    width: 100%;
+    background-color: #05a2d3;
+    border: #05a2d3;
+    border-radius: 18px;
+    padding: 6px 0px 6px 0px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 4px 8px 2px #636363;
+    cursor: pointer;
+}
