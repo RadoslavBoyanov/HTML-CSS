@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+/* 
+COLORS:
+#d01919 - red
+#efefef - light grey
+
+*/
+
+html{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d01919;
+    padding: 4px 32px;
+}
+
+.site-header .phone{
+    display: flex;
+}
+
+.site-header .location{
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li a i{
+    padding-left: 8px;
+}
+
+.site-header i{
+    color: white;
+    padding-right: 6px;
+}
+
+.site-header p{
+    color: white;
+}
+
+.site-main .intro{
+    background: url(image/fitness-main.jpg);
+    background-position: 0% 50%;
+    height: 60vh;
+    padding-top: 20px;
+}
+
+.intro nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 58px;
+}
+
+.intro .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 24px;
+    padding-top: 110px;
+}
+
+.intro .text h1{
+    font-size: 56px;
+    letter-spacing: 0.15em;
+}
+
+.intro .text p{
+    font-size: 0.85rem;
+    width: 27rem;
+    text-align: center;
+}
+
+.intro .text button{
+    background-color: #d01919;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-top: 18px;
+}
+
+.advantage{
+    background-color: white;
+    padding: 36px 120px 62px 120px; 
+}
+
+.advantage h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.advantage .articles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 140px;
+    width: 100%;
+}
+
+section.advantage section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.advantage section article i{
+    font-size: 80px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+
+section.advantage section article .privalage{
+    color: #d01919;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 18px;
+}
+
+section.advantage section article p{
+    width: 80%;
+    text-align: center;
+}
+
+
+.coaches{
+    background-color: #efefef;
+    padding-bottom: 50px;
+}
+
+.coaches h2{
+    text-align: center;
+    padding-top: 32px;
+    font-size: 2rem;
+}
+
+.line{
+    text-align: center;
+    font-size: 2rem;
+    color: #d01919;
+}
+
+.coaches .persons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    padding: 24px 100px;
+}
+
+.coaches .persons img{
+    width: 100%;
+    border-radius: 3%;
+    padding-bottom: 18px;
+}
+
+.coaches .persons .name{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.coaches .persons .type{
+    text-align: center;
+    padding-bottom: 8px;
+    color: #d01919;
+    font-weight: bold;
+}
+
+.coaches .persons .description{
+    color: #818181;
+    text-align: center;
+}
+
+.site-footer{
+    background-color: #d01919;
+    text-align: center;
+    padding: 4px 0px;
+    font-weight: bold;
+}
