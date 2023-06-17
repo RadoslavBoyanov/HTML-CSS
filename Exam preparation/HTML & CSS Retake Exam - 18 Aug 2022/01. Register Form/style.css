@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+
+/* 
+#ae3c33 - button color
+#333333 - words color
+*/
+html{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner {
+    background: url(images/form-background.png);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6%;
+    overflow: hidden;
+    box-shadow: 5px 10px 10px #888888;
+    color: #333333;
+    gap: 16px;
+    width: 50%;
+    height: 80vh;
+    padding: 100px 80px 40px 80px;
+}
+
+.conteiner h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    padding-left: 50px;
+    padding-bottom: 24px;
+}
+
+.conteiner .names{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+.conteiner .names form  div label{
+    padding-bottom: 4px;
+}
+
+.conteiner .names input{
+    width: 80%;
+    border-radius: 24px;
+    padding: 6px 12px;
+    border: 1px solid #333333;
+}
+
+input.Email{
+    width: 55%;
+    border-radius: 24px;
+    padding: 6px 12px;
+    border: 1px solid #333333;
+}
+
+input.Password{
+    width: 55%;
+    border-radius: 24px;
+    padding: 6px 12px;
+    border: 1px solid #333333;
+}
+
+input.Confirm{
+    width: 55%;
+    border-radius: 24px;
+    padding: 6px 12px;
+    border: 1px solid #333333;
+}
+
+section label:nth-child(9){
+    padding: 8px 0px;
+}
+
+.conteiner button{
+    width: 25%;
+    margin-left: 120px;
+    margin-top: 24px;
+    border-radius: 24px;
+    border: 1px solid #ae3c33;
+    background-color: #ae3c33;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
