@@ -1,0 +1,195 @@
+
+/* 
+Colors
+#a29992 - div intro -> #cdcbc8
+#8d8581 - pause
+#363434 - font intro heading
+#333333 - font service 
+#bab1ad - stats background , address
+#67784d - button
+#f2f0f3 - background service and contact
+*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Abril Fatface", cursive;
+}
+
+.site-content .intro{
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+.site-content .intro .heading{
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 0 10px 1px  #333333;
+    padding: 18px 9px;
+}
+
+.site-content .intro .heading h1{
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+
+.site-content .intro .heading p{
+    display: inline-block;
+    border-top: 2px solid #f2f0f3;
+    padding-top: 18px;
+}
+
+.site-content .intro .info-company{
+    background: linear-gradient(0.25turn, #a29992, #cdcbc8);
+    height: 350px;
+    width: 400px;
+    float: right;
+    text-align: end;
+    text-decoration: white;
+    padding: 16px 8px;
+    box-shadow: 0 0 10px 1px  #333333;
+    margin-top: 140px;
+}
+
+.site-content .intro .info-company i{
+    font-size: 26px;
+    color: #8d8581;
+    padding-top: 18px;
+}
+
+.site-content .intro .info-company p{
+    display: flex;
+    justify-content: space-between;
+    color: #f2f0f3;
+    font-size: 22px;
+    height: 280px;
+    line-height: 2rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 450px;
+    grid-template-areas: "serv  stats"
+    "contact stats";
+}
+
+.site-content .services{
+    grid-area: serv;
+    background-color: #f2f0f3;
+    padding: 36px 98px;
+    color: #333333;
+}
+
+.site-content .services h2{
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+.site-content .services i{
+    padding-right: 8px;
+}
+
+.site-content .services .special{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333;
+}
+
+.site-content .services p{
+    gap: 18px;
+    width: 90%;
+    padding: 16px 0px;
+    font-size: 22px;
+}
+
+.site-content .stats{
+    grid-area: stats;
+    background-color: #bab1ad;
+    padding: 36px 18px 0px 18px;
+}
+
+.site-content .stats .number{
+    font-size: 80px;
+    color: #f2f0f3;
+}
+
+.site-content .stats .units{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+
+section.grid section.stats div:nth-child(4) p.units{
+    padding-bottom: 0px;
+}
+
+.site-content .contact{
+    grid-area: contact;
+    background-color: #f2f0f3;
+    padding: 36px 98px;
+    color: #333333;
+}
+
+.site-content .contact h2{
+    font-size: 40px;
+    padding: 24px;
+    border-bottom: 4px solid #bab1ad;
+}
+
+.site-content .contact span{
+    font-weight: bold;
+}
+
+.site-content .contact p{
+    font-size: 22px;
+    width: 69%;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    padding-bottom: 16px;
+}
+
+.site-content .contact .ib input {
+    padding: 12px 24px;
+    width: 40%;
+    background-color: #bab1ad;
+    color: #f2f0f3;
+    border: 1px solid #bab1ad;
+    border-radius: 12px;
+    margin-right: 26px;
+}
+
+.site-content .contact .ib input::placeholder{
+    color: #f2f0f3;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.site-content .contact .ib button{
+    padding: 12px 24px;
+    width: 25%;
+    border-radius: 12px;
+    border: 1px solid #67784d;
+    background-color: #67784d;
+    color: #f2f0f3;
+    cursor: pointer;
+}
