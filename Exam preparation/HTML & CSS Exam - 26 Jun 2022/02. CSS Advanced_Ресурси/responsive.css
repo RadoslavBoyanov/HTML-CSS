@@ -1,0 +1,52 @@
+@media(max-width: 600px){
+    main .left-to-right article{
+        border-radius: 54px;
+        padding: 12px;
+        width: 90%;
+        height: 85%;
+    }
+
+    header h1 {
+        font-size: 36px;    
+    }
+
+    body > main > section:nth-child(1) > article > button{
+        display: none;
+    }
+
+    .left-to-right:first-child{
+        margin: 0px;
+        height: 530px;
+    }
+
+    main section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+
+    body > main > section:nth-child(3) > article{
+        width: 90%;
+        height: 50%;
+    }
+
+    main section:nth-child(2) button{
+        display: none;
+    }
+
+    body > main > section:nth-child(3) > article > button{
+        display: none;
+    }
+
+    body > main > section:nth-child(4){
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+
+    #send{
+        margin-left: 15%;
+    }
+
+    
+}
