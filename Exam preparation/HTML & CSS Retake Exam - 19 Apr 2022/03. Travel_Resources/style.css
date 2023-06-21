@@ -1,0 +1,235 @@
+/* 
+Colors
+#976b0c background -> #b28b24 -> #cda939
+#525976 - font with img
+*/
+
+html{
+    font-family:Helvetica, sans-serif;
+}
+
+.site-header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 62px;
+}
+
+.site-header img{
+    background: linear-gradient(#cda939, #976b0c);
+    padding: 20px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    z-index: 1;
+}
+
+.site-header .navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+header section nav.nav-icons ul{
+    display: flex;
+    padding-top: 0px;
+    justify-content: flex-end;
+}
+
+header section nav.nav-icons ul li{
+    width: 24%;
+}
+
+header section nav.nav-icons ul li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 8px 32px;
+    align-items: center;
+    color: #525976;
+}
+
+header section nav.nav-icons ul li a:hover{
+    background-color: #b28b24;
+    color: white;
+}
+
+header section nav.nav-icons ul li a i{
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+header section nav.nav-siteplace{
+    margin-right: 40px;
+}
+
+header section nav.nav-siteplace ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header section nav.nav-siteplace ul li a{
+    text-decoration: none;
+    padding: 8px 32px;
+    width: 25%;
+    color: #525976;
+}
+
+header section nav.nav-siteplace ul li a:hover{
+    background-color: #b28b24;
+    color: white;
+}
+
+.site-main .card{
+    background-image: url(image/slider.jpg);
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.site-main section.card .shuttle{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    color: white;
+    top:40%;
+    left: 15%;
+    height: 30vh;
+    width: 30vw;
+    padding: 30px 15px;
+}
+
+.site-main section.card .shuttle h2{
+    padding: 24px 0px;
+}
+
+.site-main section.card .shuttle p{
+    line-height: 1.5rem;
+    padding-bottom: 24px;
+}
+
+.site-main section.card .shuttle button{
+    margin-top: 10px;
+    padding: 8px 16px;
+    color: #f3b200;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white ;
+    cursor: pointer;
+}
+
+.site-main section.card .shuttle button:hover{
+    background-color: white;
+}
+
+.site-main .buda{
+    background: linear-gradient(0.25turn, #976b0c, #b28b24, #cda939);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    color: white;
+    padding: 32px 0px;
+}
+
+.site-main .buda button{
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.site-main .buda .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 12px;
+}
+
+.site-main .buda .description p {
+    width: 70%;
+}
+
+.site-main .buda .description p i{
+    padding-right: 6px;
+}
+
+.site-main .more-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 70px;
+    color: #525976;
+}
+
+.site-main .more-info h2{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 46px;
+}
+
+.site-main .more-info .see{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section.more-info div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+section.more-info div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.more-info div div img{
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    border: 3px solid grey;
+    width: 100%;
+    border-radius: 50%;
+    padding: 0px;
+    padding: 5px 5px 2px 5px;
+}
+
+.site-main .newsletter{
+    background: linear-gradient(0.25turn, #976b0c, #b28b24, #cda939);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 34px 12px 24px;
+}
+
+.site-main .newsletter button{
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.site-main .newsletter div{
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
+
+
+
