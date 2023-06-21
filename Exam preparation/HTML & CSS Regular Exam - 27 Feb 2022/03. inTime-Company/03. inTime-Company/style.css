@@ -1,0 +1,257 @@
+/* 
+colors
+#ffffff -background header, welcome, serv articles
+#eef0f1 - background, services
+#454545 - font, button read more
+#008cba - blue
+#393f43 - newsletter
+#545a5e - input
+#757571 - placeholder
+#2f3539 - footer 
+#262b2f - copy
+*/
+
+html{
+    font-family:Helvetica, sans-serif;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 15%;
+    background-color: #ffffff;
+}
+
+.site-header h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #454545;
+}
+
+.site-header h3 span{
+    color: #008cba;
+}
+
+.site-header .nav ul{
+    display: flex;
+    gap: 42px;
+}
+
+.site-header .nav ul li{
+    font-size: 18px;   
+}
+
+.site-header .nav ul li a{
+    text-decoration: none;
+    color: #454545;
+}
+
+header nav ul  li:nth-child(1) >a{
+    border-bottom: 4px solid #008cba;
+    padding-bottom: 4px;
+}
+
+.site-main .heading{
+    background-image: url(images/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.site-main .heading section{
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 35%;
+    height: 40%;
+    left: 12%;
+    top: 34%;
+    color: white;
+    padding-left: 14px;
+}
+
+.site-main .heading section h1{
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.site-main .heading section button{
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 24px;
+    color: white;
+    background-color: #008cba;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.site-main .welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 32px;
+    color: #454545;
+}
+
+.site-main .welcome h2{
+    font-weight: 400;
+}
+
+.site-main .welcome hr{
+    border: 2px solid #008cba;
+    width: 5%;
+    margin-bottom: 12px;
+}
+
+.site-main .welcome p{
+    width: 75%;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.site-main .welcome button{
+    padding: 8px 16px;
+    width: 10%;
+    border-radius: 26px;
+    color: white;
+    background-color: #454545;
+    cursor: pointer;
+}
+
+.site-main .services{
+    background-color: #eef0f1;
+    color: #454545 ;
+}
+
+.site-main .services div{
+    display: flex;
+    gap: 32px;
+    padding: 1% 15%;
+}
+
+.site-main .services article{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+
+.site-main .services h2{
+    text-align: center;
+    padding-top: 32px;
+}
+
+.site-main .services hr{
+    width: 5%;
+    border: 2px solid #454545;
+}
+
+.site-main .services article h3{
+    padding-top: 24px;
+    padding-bottom: 16px;
+    font-size: 24px;
+}
+.site-main .services article p{
+    padding: 0px 12px 16px 12px;
+}
+
+.site-main .services article button{
+    margin-bottom: 32px;
+    padding: 8px 16px;
+    background-color: #454545;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.site-main .newsletter{
+    background-color: #393f43;
+    color: white;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 42px;
+}
+
+.site-main .newsletter h2{
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.site-main .newsletter hr{
+    width: 5%;
+    border: 2px solid white;
+    margin-bottom: 18px;
+}
+
+.site-main .newsletter p{
+    padding-bottom: 16px;
+    font-weight: 100;
+}
+
+.site-main .newsletter input{
+    background-color: #545a5e;
+    margin-right: 8px;
+    width: 30%;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.site-main .newsletter input::placeholder{
+    color: #757571;
+}
+
+.site-main .newsletter button{
+    padding: 8px 16px;
+    background-color: #008cba;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer div{
+    background-color: #2f3539 ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0px;
+}
+
+footer div h3{
+    padding-bottom: 12px;
+}
+
+footer div .links a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+footer div .serv p{
+    padding-bottom: 8px;
+}
+
+footer div .address p.mail{
+    padding-top: 18px;
+    padding-bottom: 8px;
+}
+
+footer div .follow a i{
+    padding-right: 8px;
+    color: white;
+}
+
+footer .copy{
+    background-color: #262b2f;
+    text-align: center;
+    color: white;
+    padding: 12px 0px;
+}
+
+footer .copy span{
+    color: #008cba;
+}
