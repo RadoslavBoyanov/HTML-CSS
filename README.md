@@ -7,4 +7,6 @@ Skills I'm learning:
 - Creation of adaptive (responsive) web design
 - Creating modern websites
 
+![1HTML   CSS - May 2023 - Certificate](https://github.com/RadoslavBoyanov/HTML-CSS/assets/106109182/5b0cf654-c987-4c46-9913-5b729333a7fb)
+
 ![image](https://user-images.githubusercontent.com/106109182/236213941-ec55c5b8-f34d-4b6d-beb2-e79fd7ba1513.png)
