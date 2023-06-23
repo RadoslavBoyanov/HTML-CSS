@@ -1,0 +1,87 @@
+/* 
+colors
+#d9d9d9 - background
+#595959 - enterprise
+#595976 - font p
+#acacac - 5 min read
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+
+.conteiner{
+    display: flex;
+    padding: 1% 5%;
+    gap: 32px;
+}
+
+.conteiner article{
+    width: 100%;
+    box-shadow: 4px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.conteiner article .info{
+    padding: 32px 24px;
+}
+
+.conteiner article .info h3{
+    color: #595959;
+    padding-bottom: 8px;
+}
+
+.conteiner article .info h1{
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 32px;
+}
+
+.conteiner article .info .description{
+    font-size: 18px;
+    color: #595959;
+    padding-bottom: 36px;
+    border-bottom: 2px solid black;
+}
+
+.conteiner article img{
+    width: 100%;
+    height: 300px;
+}
+
+.conteiner article .men{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner article .men img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.conteiner article .men div{
+    display: flex;
+    padding-top: 18px;
+}
+
+.conteiner article .men div p{
+    padding-top:12px;
+    padding-left: 8px;
+    color: black;
+    font-size: 18px;
+}
+
+section article div div p{
+    padding-top: 30px;
+    color: #acacac;
+}
+
